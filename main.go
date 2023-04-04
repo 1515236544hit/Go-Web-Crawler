@@ -46,7 +46,6 @@ func extractSiteMapUrls(startURL string) []string {
 			}
 
 			sitemapFiles, pages := isSitemapURL(urls)
-
 			if sitemapFiles != nil{
 				worklist <- sitemapFiles
 			}
